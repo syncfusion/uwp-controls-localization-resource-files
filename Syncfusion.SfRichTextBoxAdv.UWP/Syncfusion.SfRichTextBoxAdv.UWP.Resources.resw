@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdvancedSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="DialogBoxCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="HyperLinkDialogDisplayText" xml:space="preserve">
+    <value>Text to Display</value>
+  </data>
+  <data name="PasswordDialogEnterPassword" xml:space="preserve">
+    <value>Enter  the password</value>
+  </data>
+  <data name="FindReplaceDialogFind" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="FindReplaceDialogTitle" xml:space="preserve">
+    <value>Find and Replace</value>
+  </data>
+  <data name="FindReplaceDialogFindNext" xml:space="preserve">
+    <value>Find next</value>
+  </data>
+  <data name="FindReplaceDialogFindText" xml:space="preserve">
+    <value>Find what</value>
+  </data>
+  <data name="FindReplaceDialogWholeWord" xml:space="preserve">
+    <value>Find whole words only</value>
+  </data>
+  <data name="IncorrectPassword" xml:space="preserve">
+    <value>Incorrect password</value>
+  </data>
+  <data name="IncorrectPasswordInfo" xml:space="preserve">
+    <value>The password is incorrect! SfRichTextBoxAdv cannot open the document.</value>
+  </data>
+  <data name="HyperlinkDialogTitle" xml:space="preserve">
+    <value>Insert Hyperlink</value>
+  </data>
+  <data name="FindReplaceDialogErrorMessage" xml:space="preserve">
+    <value>We couldn't find what you were looking for.</value>
+  </data>
+  <data name="FindReplaceDialogMatchCase" xml:space="preserve">
+    <value>Match case</value>
+  </data>
+  <data name="OptionsPaneSearchNoResult" xml:space="preserve">
+    <value>No results found</value>
+  </data>
+  <data name="Occurrences" xml:space="preserve">
+    <value>occurrences are replaced.</value>
+  </data>
+  <data name="DialogBoxOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FindReplaceDialogRegularExpression" xml:space="preserve">
+    <value>Use regular expression</value>
+  </data>
+  <data name="FindReplaceDialogReplace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="FindReplaceDialogReplaceAll" xml:space="preserve">
+    <value>Replace All</value>
+  </data>
+  <data name="ReplaceWith" xml:space="preserve">
+    <value>Replace with</value>
+  </data>
+  <data name="OptionsPaneSearchResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="OptionsPaneSearchOneResult" xml:space="preserve">
+    <value>1 result found</value>
+  </data>
+  <data name="OptionsPaneResultsHeader" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="OptionsPaneSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="OptionsPaneSearchPaused" xml:space="preserve">
+    <value>Search paused</value>
+  </data>
+  <data name="OptionsPaneSearchManyResultsInfo" xml:space="preserve">
+    <value>That's shows up a lot.</value>
+  </data>
+  <data name="HyperlinkDialogAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="FindButtonToolTip" xml:space="preserve">
+    <value>Search for more things</value>
+  </data>
+  <data name="OptionPaneCloseButtonToolTip" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="OptionsPaneSearchResultOf" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="PrintingPage" xml:space="preserve">
+    <value>Printing...</value>
+  </data>
+  <data name="PrintPreview" xml:space="preserve">
+    <value>Print Preview..</value>
+  </data>
+  <data name="AlignLeft" xml:space="preserve">
+    <value>Align Left</value>
+  </data>
+  <data name="Alignment" xml:space="preserve">
+    <value>Alignment</value>
+  </data>
+  <data name="AlignRight" xml:space="preserve">
+    <value>Align Right</value>
+  </data>
+  <data name="Aqua" xml:space="preserve">
+    <value>Aqua</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="BoldToolTip" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>Brown</value>
+  </data>
+  <data name="BulletsToolTip" xml:space="preserve">
+    <value>Bullets</value>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="CenterToolTip" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="CopyToolTip" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="CutToolTip" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>Dark Blue</value>
+  </data>
+  <data name="DarkGreen" xml:space="preserve">
+    <value>Dark Green</value>
+  </data>
+  <data name="DarkPurple" xml:space="preserve">
+    <value>Dark Purple</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>Dark Red</value>
+  </data>
+  <data name="DeleteColumn" xml:space="preserve">
+    <value>Delete Column</value>
+  </data>
+  <data name="DeleteColumnToolTip" xml:space="preserve">
+    <value>Delete Column</value>
+  </data>
+  <data name="DeleteRow" xml:space="preserve">
+    <value>Delete Row</value>
+  </data>
+  <data name="DeleteRowToolTip" xml:space="preserve">
+    <value>Delete Row</value>
+  </data>
+  <data name="DeleteTable" xml:space="preserve">
+    <value>Delete Table</value>
+  </data>
+  <data name="DeleteTableToolTip" xml:space="preserve">
+    <value>Delete Table</value>
+  </data>
+  <data name="DoubleStrike" xml:space="preserve">
+    <value>Double Strike</value>
+  </data>
+  <data name="DoubleStrikeToolTip" xml:space="preserve">
+    <value>Double Strike</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="FontColorToolTip" xml:space="preserve">
+    <value>Font Color</value>
+  </data>
+  <data name="FontFamilyToolTip" xml:space="preserve">
+    <value>Font Family</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+  <data name="FontSizeToolTip" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+  <data name="Gold" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="Gray25" xml:space="preserve">
+    <value>Gray-25%</value>
+  </data>
+  <data name="Gray50" xml:space="preserve">
+    <value>Gray-50%</value>
+  </data>
+  <data name="Gray80" xml:space="preserve">
+    <value>Gray-80%</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="HyperLink" xml:space="preserve">
+    <value>Hyperlink</value>
+  </data>
+  <data name="InsertAbove" xml:space="preserve">
+    <value>Insert Above</value>
+  </data>
+  <data name="InsertAboveToolTip" xml:space="preserve">
+    <value>Insert Rows Above</value>
+  </data>
+  <data name="InsertBelow" xml:space="preserve">
+    <value>Insert Below</value>
+  </data>
+  <data name="InsertBelowToolTip" xml:space="preserve">
+    <value>Insert Rows Below</value>
+  </data>
+  <data name="InsertHyperLinkToolTip" xml:space="preserve">
+    <value>Insert Hyperlink</value>
+  </data>
+  <data name="InsertImage" xml:space="preserve">
+    <value>Insert Image</value>
+  </data>
+  <data name="InsertImageToolTip" xml:space="preserve">
+    <value>Insert Image</value>
+  </data>
+  <data name="InsertLeft" xml:space="preserve">
+    <value>Insert Left</value>
+  </data>
+  <data name="InsertLeftToolTip" xml:space="preserve">
+    <value>Insert Columns to the Left</value>
+  </data>
+  <data name="InsertRight" xml:space="preserve">
+    <value>Insert Right</value>
+  </data>
+  <data name="InsertRightToolTip" xml:space="preserve">
+    <value>Insert Columns to the Right</value>
+  </data>
+  <data name="InsertTable" xml:space="preserve">
+    <value>Insert Table</value>
+  </data>
+  <data name="InsertTableToolTip" xml:space="preserve">
+    <value>Insert Table</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="ItalicToolTip" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="Justify" xml:space="preserve">
+    <value>Justify</value>
+  </data>
+  <data name="JustifyToolTip" xml:space="preserve">
+    <value>Justify</value>
+  </data>
+  <data name="LeftAlignToolTip" xml:space="preserve">
+    <value>Align Left</value>
+  </data>
+  <data name="LightGreen" xml:space="preserve">
+    <value>Light Green</value>
+  </data>
+  <data name="LightYellow" xml:space="preserve">
+    <value>Light Yellow</value>
+  </data>
+  <data name="Lime" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="ListToolTip" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="MergeCells" xml:space="preserve">
+    <value>Merge Cells</value>
+  </data>
+  <data name="MergeCellsToolTip" xml:space="preserve">
+    <value>Merge the Selected Cells</value>
+  </data>
+  <data name="NoListToolTip" xml:space="preserve">
+    <value>No List</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="NormalToolTip" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="NoStrike" xml:space="preserve">
+    <value>No Strike</value>
+  </data>
+  <data name="NoStrikeToolTip" xml:space="preserve">
+    <value>No Strike</value>
+  </data>
+  <data name="NumberingToolTip" xml:space="preserve">
+    <value>Numbering</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="ParagraphAlignmentToolTip" xml:space="preserve">
+    <value>Paragraph Alignment</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="PasteToolTip" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="Pink" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="Plum" xml:space="preserve">
+    <value>Plum</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="RedoToolTip" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="RightAlignToolTip" xml:space="preserve">
+    <value>Align Right</value>
+  </data>
+  <data name="Rose" xml:space="preserve">
+    <value>Rose</value>
+  </data>
+  <data name="SingleStrike" xml:space="preserve">
+    <value>Single Strike</value>
+  </data>
+  <data name="SingleStrikeToolTip" xml:space="preserve">
+    <value>Single Strike</value>
+  </data>
+  <data name="SkyBlue" xml:space="preserve">
+    <value>Sky Blue</value>
+  </data>
+  <data name="StrikeThrough" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="StrikeThroughToolTip" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="SubScript" xml:space="preserve">
+    <value>Subscript</value>
+  </data>
+  <data name="SubScriptToolTip" xml:space="preserve">
+    <value>Subscript</value>
+  </data>
+  <data name="SuperScript" xml:space="preserve">
+    <value>Superscript</value>
+  </data>
+  <data name="SuperScriptToolTip" xml:space="preserve">
+    <value>Superscript</value>
+  </data>
+  <data name="Turquoise" xml:space="preserve">
+    <value>Turquoise</value>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="UnderlineToolTip" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="UndoToolTip" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="White" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="OptionsPaneSearchInformation" xml:space="preserve">
+    <value>Use search box for find text in the document.</value>
+  </data>
+  <data name="OptionsPaneSearchErrorMessage" xml:space="preserve">
+    <value>We couldn't find what you were looking for.</value>
+  </data>
+  <data name="FindReplaceDialogLessOption" xml:space="preserve">
+    <value>Less</value>
+  </data>
+  <data name="FindReplaceDialogMoreOption" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="NoList" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="SpellingPaneAddToDictionary" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="SpellingPaneChange" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="SpellingPaneChangeAll" xml:space="preserve">
+    <value>Change All</value>
+  </data>
+  <data name="SpellingPaneIgnoreAll" xml:space="preserve">
+    <value>Ignore All</value>
+  </data>
+  <data name="SpellingPaneResume" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="SpellingPaneSpelling" xml:space="preserve">
+    <value>Spelling</value>
+  </data>
+  <data name="SpellingPaneSuccessMessage" xml:space="preserve">
+    <value>Spelling check complete. You're good to go!</value>
+  </data>
+  <data name="LoadingPage" xml:space="preserve">
+    <value>Loading Page</value>
+  </data>
+  <data name="EditHyperlink" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EditHyperlinkToolTip" xml:space="preserve">
+    <value>Edit Hyperlink</value>
+  </data>
+  <data name="RemoveHyperlink" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RemoveHyperlinkToolTip" xml:space="preserve">
+    <value>Remove Hyperlink</value>
+  </data>
+  <data name="CopyHyperlink" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="CopyHyperlinkToolTip" xml:space="preserve">
+    <value>Copy Hyperlink</value>
+  </data>
+</root>
