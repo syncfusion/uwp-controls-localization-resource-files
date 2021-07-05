@@ -1,4 +1,4 @@
-# Localization of Syncfusion UWP Controls using .resw files
+# Localization of Syncfusion UWP Controls using .resw files 
 
 This repository contains the default resources file (.resw) of Syncfusion UWP libraries. You can use this resource files to localize the strings for any selected language.
 
