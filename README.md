@@ -16,7 +16,7 @@ public MainPage()
     CultureInfo.CurrentUICulture = new CultureInfo("de");
     this.InitializeComponent();
 }
-```
+``` 
 
 ### Creating a .resw file
 
