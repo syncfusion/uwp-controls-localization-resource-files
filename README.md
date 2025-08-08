@@ -14,7 +14,7 @@ When you are changing the application culture, then you can localize the applica
 public MainPage()
 {
     CultureInfo.CurrentUICulture = new CultureInfo("de");
-    this.InitializeComponent();
+    this.InitializeComponent(); 
 }
 ``` 
 
