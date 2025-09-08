@@ -46,4 +46,4 @@ You can create .resw files for any language by following steps,
 
 ## Editing default culture settings
 
-You can change the default string of any control by adding the default .resw files ([from GitHub](https://github.com/syncfusion/uwp-controls-localization-resource-files)) to `Resources` folder of your application. Syncfusion UWP controls reads the default string from the .resw files of application if its added. 
+You can change the default string of any control by adding the default .resw files ([from GitHub](https://github.com/syncfusion/uwp-controls-localization-resource-files)) to `Resources` folder of your application. Syncfusion UWP controls reads the default string from the .resw files of application if its added.  
