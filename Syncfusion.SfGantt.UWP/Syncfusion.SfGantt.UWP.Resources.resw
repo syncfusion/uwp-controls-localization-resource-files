@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="are invalid" xml:space="preserve">
+    <value>are invalid</value>
+  </data>
+  <data name="BottomTierValidation" xml:space="preserve">
+    <value>Check bottom tier interval value.</value>
+  </data>
+  <data name="CellSizeValidation" xml:space="preserve">
+    <value>Cell size value must exist between 25 to 1000.</value>
+  </data>
+  <data name="day" xml:space="preserve">
+    <value>day</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="TaskIsExistMessage" xml:space="preserve">
+    <value>Task ID already exist.</value>
+  </data>
+  <data name="Finish-to-Finish (FF)" xml:space="preserve">
+    <value>Finish-to-Finish (FF)</value>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="1st" xml:space="preserve">
+    <value>1st</value>
+  </data>
+  <data name="4th" xml:space="preserve">
+    <value>4th</value>
+  </data>
+  <data name="Finish-to-Start (FS)" xml:space="preserve">
+    <value>Finish-to-Start (FS)</value>
+  </data>
+  <data name="Gantt view" xml:space="preserve">
+    <value>Gantt view</value>
+  </data>
+  <data name="Grid view" xml:space="preserve">
+    <value>Grid view</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="IntervalValidation" xml:space="preserve">
+    <value>Set Interval property value greater than or equal to one.</value>
+  </data>
+  <data name="IntervalTypeValidation" xml:space="preserve">
+    <value>Top tier's IntervalType is less than the bottom tier's IntervalType.</value>
+  </data>
+  <data name="is invalid" xml:space="preserve">
+    <value>is invalid</value>
+  </data>
+  <data name="IsMilestone" xml:space="preserve">
+    <value>IsMilestone</value>
+  </data>
+  <data name="IntervalValueValidation" xml:space="preserve">
+    <value>Top tier's Interval is less than the bottom tier's Interval.</value>
+  </data>
+  <data name="TaskIDValidation" xml:space="preserve">
+    <value>Task's ID cannot be null or empty.</value>
+  </data>
+  <data name="Predecessors" xml:space="preserve">
+    <value>Predecessors</value>
+  </data>
+  <data name="Quarter" xml:space="preserve">
+    <value>Quarter</value>
+  </data>
+  <data name="Relationship" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="2nd" xml:space="preserve">
+    <value>2nd</value>
+  </data>
+  <data name="Start-to-Finish (SF)" xml:space="preserve">
+    <value>Start-to-Finish (SF)</value>
+  </data>
+  <data name="Start-to-Start (SS)" xml:space="preserve">
+    <value>Start-to-Start (SS)</value>
+  </data>
+  <data name="Task Name" xml:space="preserve">
+    <value>Task Name</value>
+  </data>
+  <data name="3rd" xml:space="preserve">
+    <value>3rd</value>
+  </data>
+  <data name="TopTierValidation" xml:space="preserve">
+    <value>Check top tier interval value.</value>
+  </data>
+  <data name="TaskIDInvalidMessage" xml:space="preserve">
+    <value>Task ID is invalid.</value>
+  </data>
+  <data name="Add New" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Collapse All" xml:space="preserve">
+    <value>Collapse All</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Expand All" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Indent" xml:space="preserve">
+    <value>Indent</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Outdent" xml:space="preserve">
+    <value>Outdent</value>
+  </data>
+  <data name="Progress" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Edit task" xml:space="preserve">
+    <value>Edit task</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="New task" xml:space="preserve">
+    <value>New task</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Finish date" xml:space="preserve">
+    <value>Finish date</value>
+  </data>
+  <data name="Start date" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="Offset" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Task Dependency" xml:space="preserve">
+    <value>Task Dependency</value>
+  </data>
+  <data name="Lag" xml:space="preserve">
+    <value>Lag</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Establish Relationship" xml:space="preserve">
+    <value>Establish Relationship</value>
+  </data>
+  <data name="InvalidRelationshipMessage" xml:space="preserve">
+    <value>Relationship is invalid.</value>
+  </data>
+  <data name="ValidRelationshipMessage" xml:space="preserve">
+    <value>Relationship Established.</value>
+  </data>
+  <data name="Highlight Critical Path" xml:space="preserve">
+    <value>Highlight Critical Path</value>
+  </data>
+</root>
